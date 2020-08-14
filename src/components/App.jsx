@@ -9,7 +9,7 @@ function App() {
  
  function change(){
 const getTimeNow = new Date().toLocaleTimeString()
-   setTime(getTimeNow) 
+   setTime(getTimeNow); 
  }
 
  return (
